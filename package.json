@@ -1,0 +1,21 @@
+{
+  "name": "ar-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chokidar": "^2.0.4",
+    "json-stringify-safe": "^5.0.1",
+    "webpack": "^4.13.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-serve": "^1.0.4",
+    "ws": "^5.2.1"
+  }
+}
